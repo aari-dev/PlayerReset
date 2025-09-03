@@ -1,0 +1,63 @@
+database:
+  file: "playerdata.db"
+
+gui:
+  title: "ʀᴇѕᴇᴛ ᴘʟᴀʏᴇʀ ᴅᴀᴛᴀ"
+  size: 27
+
+  items:
+    reset_kills:
+      slot: 11
+      material: PLAYER_HEAD
+      skull_owner: "Kills"
+      name: "&c&lRESET KILLS"
+      lore:
+        - "&7Click to reset kills"
+        - "&c&lPROCEED WITH CAUTION"
+
+    reset_deaths:
+      slot: 12
+      material: PLAYER_HEAD
+      skull_owner: "Skeleton"
+      name: "&e&lRESET DEATHS"
+      lore:
+        - "&7Click to reset deaths"
+        - "&c&lPROCEED WITH CAUTION"
+
+    reset_playtime:
+      slot: 13
+      material: PLAYER_HEAD
+      skull_owner: "MauriRoblox456"
+      name: "&3&lRESET PLAYTIME"
+      lore:
+        - "&7Click to reset playtime"
+        - "&c&lPROCEED WITH CAUTION"
+
+    reset_money:
+      slot: 14
+      material: PLAYER_HEAD
+      skull_owner: "BillIsACarrot"
+      name: "&a&lRESET MONEY"
+      lore:
+        - "&7Click to reset money"
+        - "&c&lPROCEED WITH CAUTION"
+
+    reset_all:
+      slot: 15
+      material: PLAYER_HEAD
+      skull_owner: "QueijinhoCoalhao"
+      name: "&4&lRESET ALL"
+      lore:
+        - "&7Click to reset everything"
+        - "&c&lPROCEED WITH CAUTION"
+        - "&4&lTHIS CANNOT BE UNDONE"
+
+messages:
+  prefix: "&b&lPLAYER RESET&r&7» "
+  no_permission: "&b&lPLAYER RESET&r&7» &cYou don't have permission to use this command!"
+  player_not_found: "&b&lPLAYER RESET&r&7» &cPlayer not found!"
+  reset_success: "&b&lPLAYER RESET&r&7» &aSuccessfully reset {type} for {player}!"
+  reset_all_success: "&b&lPLAYER RESET&r&7» &aSuccessfully reset all data for {player}!"
+  bulk_reset_success: "&b&lPLAYER RESET&r&7» &aSuccessfully reset {type} for {count} players!"
+  database_error: "&b&lPLAYER RESET&r&7» &cDatabase error occurred!"
+  vault_not_found: "&b&lPLAYER RESET&r&7» &cVault not found! Money reset disabled."
