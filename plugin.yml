@@ -1,0 +1,14 @@
+name: PlayerReset
+version: '1.0.0'
+main: dev.aari.playerreset.PlayerReset
+api-version: '1.21'
+softdepend: [ Vault ]
+commands:
+  reset:
+    usage: /reset <player|*|**>
+    permission: playerreset.use
+permissions:
+  playerreset.use:
+    default: op
+  playerreset.admin:
+    default: op
